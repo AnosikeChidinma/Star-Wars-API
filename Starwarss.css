@@ -1,0 +1,58 @@
+.header{
+  font-size: 50px;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+span{
+  color: crimson;
+}
+
+ul {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Create three equal-width columns */
+  grid-gap: 20px; /* Add a gap between grid items */
+  list-style: none;
+}
+
+.box {
+
+  /* display: grid;
+  grid-template-columns: 4fr 1fr; */
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+ 
+  /* Create three rows: image, button, and info */ 
+ 
+}
+
+
+.box button{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+}
+
+.image {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+}
+
+button {
+  width: 100px;
+  margin-top: 10px;
+  border-radius: 10px;
+  justify-content: center;
+}
+
+.info {
+  margin-top: 10px;
+}
+
+body{
+  background-color: grey;
+}
