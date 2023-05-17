@@ -10,21 +10,19 @@ span{
 
 ul {
   display: grid;
-  grid-template-columns: repeat(3, 1fr); /* Create three equal-width columns */
-  grid-gap: 20px; /* Add a gap between grid items */
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 20px; 
   list-style: none;
 }
 
 .box {
 
-  /* display: grid;
-  grid-template-columns: 4fr 1fr; */
+  display: grid;
+  grid-template-columns: 4fr 1fr; 
   display: flex;
   flex-wrap: wrap;
   align-items: center;
   justify-content: center;
- 
-  /* Create three rows: image, button, and info */ 
  
 }
 
